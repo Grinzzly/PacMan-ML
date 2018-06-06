@@ -7,10 +7,7 @@ import { DatasetController } from './modules/pm-controllers/datasetController';
 /* The number of classes that will be predicted is 4 for up, down, left, and right. */
 const NUM_CLASSES = 4;
 
-/* A webcam class that generates Tensors from the images from the webcam. */
 const webcam = new WebcamController(document.getElementById('webcam'));
-
-/* The dataset object where activations will be stored. */
 const datasetController = new DatasetController(NUM_CLASSES);
 
 let mobilenet;
@@ -127,6 +124,7 @@ document.getElementById('train').addEventListener('click', async () => {
   isPredicting = false;
   train();
 });
+
 document.getElementById('predict').addEventListener('click', () => {
   ui.startPacman();
   isPredicting = true;

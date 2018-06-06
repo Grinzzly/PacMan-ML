@@ -16,6 +16,7 @@ export class DatasetController {
       () => tf.oneHot(tf.tensor1d([label]).toInt(), this.numClasses));
 
     if (this.xs == null) {
+
       /* For the first example that gets added, keep example and y so that the
       * DatasetController owns the memory of the inputs. This makes sure that
       * if addExample() is called in a tf.tidy(), these Tensors will not get

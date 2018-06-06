@@ -57,6 +57,7 @@ export class WebcamController {
       navigator.getUserMedia = navigator.getUserMedia ||
           navigatorAny.webkitGetUserMedia || navigatorAny.mozGetUserMedia ||
           navigatorAny.msGetUserMedia;
+
       if (navigator.getUserMedia) {
         navigator.getUserMedia(
             {video: true},
@@ -66,6 +67,7 @@ export class WebcamController {
                 this.adjustVideoSize(
                     this.webcamElement.videoWidth,
                     this.webcamElement.videoHeight);
+
                 resolve();
               }, false);
             },
