@@ -21,6 +21,14 @@
 Did you know that the original name for Pac-Man was Puck-Man? You'd think it was because he looks like a hockey puck
 but it actually comes from the Japanese phrase 'Paku-Paku,' which means to flap one's mouth open and closed.
 
+## Installation & Usage
+
+From the root of the project directory:
+```
+yarn install
+yarn watch
+```
+_Use at least 8.9.0 version of Node._
 ## Technology in use
 
 * __TensorFlow__
