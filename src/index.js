@@ -30,8 +30,8 @@ async function loadMobilenet() {
 ui.setExampleHandler(label => {
   tf.tidy(() => {
     const img = webcam.capture();
-    datasetController.addExample(mobilenet.predict(img), label);
 
+    datasetController.addExample(mobilenet.predict(img), label);
     ui.drawThumb(img, label);
   });
 });
@@ -75,8 +75,8 @@ async function train() {
 
   model.compile({optimizer: optimizer, loss: 'categoricalCrossentropy'});
 
-  const batchSize =
-    Math.floor(datasetController.xs.shape[0] * ui.getBatchSizeFraction());
+  const batchSize = Math.floor(datasetController.xs.shape[0] * ui.getBatchSizeFraction());
+
   if (!(batchSize > 0)) {
     throw new Error(
       `Batch size is 0 or NaN. Please choose a non-zero fraction.`);
@@ -109,11 +109,13 @@ async function predict() {
     });
 
     const classId = (await predictedClass.data())[0];
-    predictedClass.dispose();
 
+    predictedClass.dispose();
     ui.predictClass(classId);
+
     await tf.nextFrame();
   }
+
   ui.donePredicting();
 }
 
@@ -121,6 +123,7 @@ document.getElementById('train').addEventListener('click', async () => {
   ui.trainStatus('Training...');
   await tf.nextFrame();
   await tf.nextFrame();
+
   isPredicting = false;
   train();
 });
