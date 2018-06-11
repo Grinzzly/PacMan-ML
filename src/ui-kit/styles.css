@@ -20,13 +20,14 @@ header {
   color: rgba(255, 255, 255, 0.7);
   font-size: 30px;
   font-weight: 300;
-  line-height: 1.45em;
+  line-height: 1.2em;
   overflow: hidden;
   padding: 20px 0;
   position: relative;
   text-align: center;
   -webkit-font-smoothing: antialiased;
 }
+
 header b {
   color: rgba(255, 255, 255, 1);
   font-weight: 400;
