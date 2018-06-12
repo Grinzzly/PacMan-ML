@@ -15,7 +15,7 @@
   <br>
   <br>
   <img width="250" src="./src/ui-kit/images/preview.jpg" alt="PacMan">
-
+  <br>
   <br>
   <div align="center">
     <a href="https://grinzzly.github.io/PacMan-ML/dist/index.html">
