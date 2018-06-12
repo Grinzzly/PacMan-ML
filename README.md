@@ -1,4 +1,4 @@
-<h1 align="center">Pacman via the Webcam</h1>
+<h1 align="center">Pacman via Webcam</h1>
 
 <div align="center">
   <sub>The little PacMan that Waka Waka. Codede by
