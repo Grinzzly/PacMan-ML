@@ -38,7 +38,6 @@ config/env/development.js
 node_modules
 bower_components
 coverage
-dist
 
 ################################################
 # Gulp / Waterline / Grunt
@@ -48,7 +47,6 @@ dist
 ################################################
 
 .tmp
-.cache
 
 ################################################
 # Node.js / NPM
