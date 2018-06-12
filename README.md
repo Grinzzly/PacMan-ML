@@ -14,23 +14,8 @@
   <img src="https://img.shields.io/badge/60%25%20of%20the%20time-works%20every%20time-blue.svg" alt="Quality">
   <br>
   <br>
-  <img width="250" src="./src/ui-kit/images/preview.jpg" alt="PacMan">
+  <img width="250" src="./src/ui-kit/images/animated_logo.gif" alt="PacMan">
 </div>
 
 ## About
-Did you know that the original name for Pac-Man was Puck-Man? You'd think it was because he looks like a hockey puck
-but it actually comes from the Japanese phrase 'Paku-Paku,' which means to flap one's mouth open and closed.
-
-## Installation & Usage
-
-From the root of the project directory:
-```
-yarn install
-yarn watch
-```
-_Use at least 8.9.0 version of Node._
-## Technology in use
-
-* __TensorFlow__
-* __Vega-Embed__
-* __Parcel__
+This exact branch exist only for git-hub pages deploying purposes. So Waka-Waka out of here :)
