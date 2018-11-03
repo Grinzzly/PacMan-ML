@@ -1,27 +1,34 @@
 {
   "name": "pacman-ml",
-  "version": "0.0.0",
-  "description": "",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Waka-waka",
+  "homepage": "https://grinzzly.github.io/PacMan-ML/dist/index.html",
+  "author": {
+    "name": "Grinzzly",
+    "url": "https://github.com/Grinzzly"
+  },
+  "repository": "https://github.com/Grinzzly/PacMan-ML",
   "main": "src/index.js",
-  "private": true,
   "engines": {
-    "node": ">=8.9.0"
+    "node": "10.13.0",
+    "npm": "6.4.1"
   },
   "dependencies": {
-    "@tensorflow/tfjs": "^0.11.4",
-    "vega-embed": "~3.0.0"
+    "@tensorflow/tfjs": "^0.13.3",
+    "vega-embed": "~3.22.1"
   },
   "scripts": {
     "watch": "NODE_ENV=development parcel --no-hmr --open index.html ",
     "build": "NODE_ENV=production parcel build index.html  --no-minify --public-url ./",
-    "preinstall": "yarn upgrade --pattern @tensorflow"
+    "preinstall": "npm upgrade --pattern @tensorflow"
   },
   "devDependencies": {
     "babel-plugin-transform-runtime": "~6.23.0",
     "babel-polyfill": "~6.26.0",
     "babel-preset-env": "~1.6.1",
     "clang-format": "~1.2.2",
-    "parcel-bundler": "~1.6.2"
+    "parcel-bundler": "~1.10.0"
   },
   "browserslist": [
     "> 1%",
