@@ -35,7 +35,7 @@ From the root of the project directory:
 npm i
 npm watch
 ```
-_Use at least 12.12.0 version of Node._
+_Use at least 10.17.0 version of Node.js_
 ## Technology in use
 
 * __TensorFlow__
