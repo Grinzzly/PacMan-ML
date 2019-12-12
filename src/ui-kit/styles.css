@@ -334,3 +334,20 @@ header b {
   padding: 30px;
   line-height: 30px;
 }
+
+.sign {
+  display: block;
+  font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif;
+  font-weight: 700;
+  color: #5d93ff;
+  text-transform: uppercase;
+  text-decoration: none;
+  /*position: absolute;
+  bottom: 10px;
+  width: 100%;
+  left: 0;*/
+}
+
+.written-by {
+  color: #f7a046;
+}

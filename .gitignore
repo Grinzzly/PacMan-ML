@@ -35,10 +35,10 @@ config/env/development.js
 #
 ################################################
 
+dist/
 node_modules
 bower_components
 coverage
-dist
 
 ################################################
 # Gulp / Waterline / Grunt
@@ -85,3 +85,4 @@ Dockerfile-local
 docker-compose-local.yml
 docker-compose.yml
 .vagrant
+

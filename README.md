@@ -1,4 +1,4 @@
-<h1 align="center">Pacman via Webcam</h1>
+<h1 align="center">Pac-Man via Webcam</h1>
 
 <div align="center">
   <sub>The little PacMan that Waka Waka. Codede by
@@ -32,10 +32,10 @@ but it actually comes from the Japanese phrase 'Paku-Paku,' which means to flap 
 
 From the root of the project directory:
 ```
-yarn install
-yarn watch
+npm i
+npm watch
 ```
-_Use at least 8.9.0 version of Node._
+_Use at least 12.12.0 version of Node._
 ## Technology in use
 
 * __TensorFlow__
