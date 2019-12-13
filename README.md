@@ -2,8 +2,8 @@
 
 <div align="center">
   <sub>The little PacMan that Waka Waka. Codede by
-  <a href="https://github.com/Grinzzly">Grinzzly</a>
-  </a>
+    <a href="https://github.com/Grinzzly">Grinzzly</a>
+  </sub>
   <br>
   <br>
   <a href="https://github.com/airbnb/javascript">
@@ -18,7 +18,7 @@
   <br>
   <br>
   <div align="center">
-    <a href="https://grinzzly.github.io/PacMan-ML/dist/index.html">
+    <a href="https://pac-man.simplexco.de/">
       <img width="150" src="./src/ui-kit/images/start_button.png" />
     </a>
   </div>
