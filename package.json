@@ -4,6 +4,7 @@
   "private": false,
   "description": "Waka-waka",
   "homepage": "https://grinzzly.github.io/PacMan-ML/dist/index.html",
+  "main": "dist/index.html",
   "author": {
     "name": "Grinzzly",
     "url": "https://github.com/Grinzzly"
@@ -21,11 +22,9 @@
     "build": "parcel build ./src/index.html --public-url ./"
   },
   "dependencies": {
-    "@tensorflow/tfjs": "^3.3.0",
-    "seedrandom": "^2.4.4"
-  },
-  "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-nightly.625",
-    "parcel": "^2.0.0-nightly.623"
+    "@tensorflow/tfjs": "^3.3.0",
+    "parcel": "^2.0.0-nightly.623",
+    "seedrandom": "^2.4.4"
   }
 }
