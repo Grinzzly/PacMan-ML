@@ -21,7 +21,8 @@
     "build": "parcel build ./src/index.html --public-url ./"
   },
   "dependencies": {
-    "@tensorflow/tfjs": "^3.3.0"
+    "@tensorflow/tfjs": "^3.3.0",
+    "seedrandom": "^2.4.4"
   },
   "devDependencies": {
     "@parcel/transformer-sass": "^2.0.0-nightly.625",
