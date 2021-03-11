@@ -25,19 +25,19 @@
 </div>
 
 ## About
-Did you know that the original name for Pac-Man was Puck-Man? You'd think it was because he looks like a hockey puck
-but it actually comes from the Japanese phrase 'Paku-Paku,' which means to flap one's mouth open and closed.
+Did you know that the original name for Pac-Man was Puck-Man? You'd think it was because he looks like a hockey puck, but it actually comes from the Japanese phrase 'Paku-Paku,' which means to flap one's mouth open and closed.
 
 ## Installation & Usage
 
 From the root of the project directory:
 ```
 npm i
-npm watch
+npm run start
 ```
-_Use at least 10.17.0 version of Node.js_
+_Use at least 14.16.0 version of Node.js_
+
 ## Technology in use
 
 * __TensorFlow__
-* __Vega-Embed__
 * __Parcel__
+* __Google Pacman__ - kudos to google for implementing [pac-man](https://storage.googleapis.com/tfjs-examples/assets/webcam-transfer-learning/pacman-google.js) in frontend only
