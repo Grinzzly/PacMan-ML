@@ -24,10 +24,10 @@
   "dependencies": {
     "@parcel/transformer-sass": "^2.0.0-alpha.3",
     "@tensorflow/tfjs": "^3.9.0",
-    "parcel": "^2.0.0-rc.0",
+    "parcel": "^2.8.2",
     "seedrandom": "^3.0.5"
   },
   "devDependencies": {
-    "@parcel/transformer-image": "^2.0.0-rc.0"
+    "@parcel/transformer-image": "^2.8.2"
   }
 }
